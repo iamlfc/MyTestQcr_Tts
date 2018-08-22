@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+
+              android:orientation="vertical"
+              android:paddingBottom="50dp"
+              android:paddingLeft="10dp"
+              android:paddingRight="10dp"
+              android:paddingTop="20dp">
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:text="获取信息:"/>
+
+    <Button
+        android:id="@+id/btn_front_m"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="身份证正面（手动）"/>
+
+    <Button
+        android:id="@+id/btn_back_m"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="身份证反面（手动）"/>
+
+
+    <Button
+        android:id="@+id/btn_front_a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="身份证正面（自动）"/>
+
+    <Button
+        android:id="@+id/btn_back_a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="身份证反面（自动）"/>
+
+
+</LinearLayout>

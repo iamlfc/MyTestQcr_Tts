@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center"
+              android:orientation="vertical"
+              android:paddingLeft="15dp"
+              android:paddingRight="15dp">
+
+    <Button
+        android:id="@+id/btn_qcr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="百度身份证识别"/>
+
+    <Button
+        android:id="@+id/btn_guide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="高亮引导"/>
+
+    <Button
+        android:id="@+id/btn_tts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="百度语音"/>
+</LinearLayout>
